@@ -1,0 +1,101 @@
+/* Reset básico */
+* {
+    margin: 1px; ;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eff4fd;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #090b21;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+/* Navegación */
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #8c9ff4;
+}
+
+/* Main */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* Secciones */
+section {
+    background: rgb(194, 201, 248);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: lch(41.64% 71.66 34.33) #1d115c;
+}
+
+/* Botón */
+button {
+    background: #f0f0f0;
+    color: rgb(20, 35, 105);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5370c0;
+}
+
+/* Noticias */
+h3 {
+    margin-top: 15px;
+    color: #374151;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    background: lch(6.77% 11.57 278.23);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #ccc;
+}
