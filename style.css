@@ -1,33 +1,33 @@
 /* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 1px; ;
+    padding: 1px;
     box-sizing: border-box;
 }
 
 /* Estilos generales */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2f4f8;
-    color: #333;
+    background-color: #eff4fd;
+    color: #000000;
     line-height: 1.6;
 }
 
 /* Header */
 header {
-    background: #1e3a8a;
+    background: #090b21;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /* Navegación */
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #93c5fd;
+    color: #8c9ff4;
 }
 
 /* Main */
@@ -47,7 +47,7 @@ main {
 
 /* Secciones */
 section {
-    background: white;
+    background: rgb(194, 201, 248);
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
@@ -56,13 +56,13 @@ section {
 
 section h2 {
     margin-bottom: 15px;
-    color: #1e3a8a;
+    color: lch(41.64% 71.66 34.33) #1d115c;
 }
 
 /* Botón */
 button {
-    background: #2563eb;
-    color: white;
+    background: #f0f0f0;
+    color: rgb(20, 35, 105);
     border: none;
     padding: 10px 20px;
     border-radius: 6px;
@@ -71,7 +71,7 @@ button {
 }
 
 button:hover {
-    background: #1d4ed8;
+    background: #5370c0;
 }
 
 /* Noticias */
@@ -87,7 +87,7 @@ ul {
 
 /* Footer */
 footer {
-    background: #111827;
+    background: lch(6.77% 11.57 278.23);
     color: white;
     text-align: center;
     padding: 20px;
